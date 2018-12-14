@@ -5,6 +5,11 @@ usage:pebinder.exe [--file] frist.exe secoend.exe new_file.exe
 c:\>pebinder.exe --file frist.exe secoend.exe new.exe
 pebinder.exe --ico img.ico new_file.exe
 
+
+
+在vs2010下编译通过
+
+
 ps:
 调用时，格式如下：FreeResFile(IDR_DLL ,"RT_DLL","D:\\1.exe");
 如果是建立的空项目，记得添加上头文件 #include "resource.h",不然识别不了资源ID:IDR_DLL
